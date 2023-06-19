@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500;600&family=Merriweather&family=Merriweather+Sans&family=Montserrat&family=Sacramento&display=swap');
+
+#complex{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-family: 'Inter';
+    margin-top: 5%;
+    color: white;
+}
+
+#complex > h3{
+    color: #F3BF99;
+}
+
+#complex > h5{
+    padding-top: 5%;
+}
+
+#complex > h5 > a {
+    color: white;
+    text-decoration: none;
+}
+
+#container{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 5%;
+}
+
+#container > #email{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: white;
+    padding: 2% 8%;
+    color: black;
+    margin-left: 5%;
+    margin-right: 3%;
+    align-items: center;
+    border-radius:4px ;
+}
+
+#container>#linkedin{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: #5093E2;
+    padding: 2% 8%;
+    color: white;
+    margin-left: 3%;
+    margin-right: 5%;
+    align-items: center;
+    border-radius: 4px;
+}
+
+#container>#email>a{
+    color: black;
+    text-decoration: none;
+    margin-left: 10%;
+}
+
+#container>#linkedin>a {
+    color: white;
+    text-decoration: none;
+    margin-left: 10;
+}
+
+#container>#linkedin>img {
+    background-color: white;
+    padding: 1%;
+    margin-right: 10%;
+}
+
+
+#content > #linkedin > a{
+    color: white
+}

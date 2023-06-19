@@ -1,0 +1,12 @@
+#footer{
+    background: #161619;
+    padding: 4%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#footer > a > img{
+    background-color: white;
+    padding: 2%;
+    border-radius: 10%;
+}

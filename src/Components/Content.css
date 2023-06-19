@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500;600&family=Merriweather&family=Merriweather+Sans&family=Montserrat&family=Sacramento&display=swap');
+
+#content{
+    color: white;
+    padding: 10%;
+    font-family: 'Inter';
+}
+
+#content > h1{
+    padding: 2% 0%;
+    font-weight: 1;
+}
+
+#content > p{
+    padding-bottom: 5%;
+    font-weight: normal;
+    font-size: 10;
+    line-height: 150%;
+}
